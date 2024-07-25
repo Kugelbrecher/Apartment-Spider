@@ -1,7 +1,7 @@
 import psycopg2
 from psycopg2 import OperationalError
 
-from apartments.settings import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
+from settings import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
 
 def create_connection(db_name, db_user, db_password, db_host, db_port):
     """

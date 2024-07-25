@@ -1,7 +1,7 @@
 import sys
 import logging
 
-from apartments.settings import LOG_LEVEL, LOG_FMT, LOG_DATEFMT, LOG_FILENAME
+from settings import LOG_LEVEL, LOG_FMT, LOG_DATEFMT, LOG_FILENAME
 
 
 class Logger(object):

@@ -2,10 +2,10 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from apartments.settings import NEMA_URL
-from apartments.config import connection
-from apartments.utils import insert_data
-from apartments.log import logger
+from settings import NEMA_URL
+from config import connection
+from utils import insert_data
+from log import logger
 
 
 # NOTE:  NEMA Chicago default rent is 12 months

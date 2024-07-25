@@ -6,10 +6,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
 
-from apartments.settings import LINEA_URL
-from apartments.config import connection
-from apartments.utils import setup_driver, insert_data
-from apartments.log import logger
+from settings import LINEA_URL
+from config import connection
+from utils import setup_driver, insert_data
+from log import logger
 
 # NOTE: designed by Willow Bridge, same layout as 1000M
 # use selenium to fetch the page content

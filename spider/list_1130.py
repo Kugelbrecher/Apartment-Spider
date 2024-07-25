@@ -4,10 +4,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
-from apartments.settings import ELEVEN30_URL
-from apartments.config import connection
-from apartments.utils import setup_driver, insert_data
-from apartments.log import logger
+from settings import ELEVEN30_URL
+from config import connection
+from utils import setup_driver, insert_data
+from log import logger
 
 # NOTE: designed by RentCafe
 # use selenium to fetch the floor plans with available units

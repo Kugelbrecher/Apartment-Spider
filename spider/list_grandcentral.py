@@ -5,10 +5,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
-from apartments.settings import GRAND_CENTRAL_URL
-from apartments.config import connection
-from apartments.utils import setup_driver, insert_data
-from apartments.log import logger
+from settings import GRAND_CENTRAL_URL
+from config import connection
+from utils import setup_driver, insert_data
+from log import logger
 
 # NOTE:
 # same logo with elle
