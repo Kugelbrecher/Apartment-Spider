@@ -1,6 +1,6 @@
 # Apartment Spider/Scraper
 
-This project is designed to gather and analyze data from various apartment listing websites, providing a valuable resource for renters, landlords, and real estate investors. The collected data helps in making well-informed decisions regarding renting, buying, or selling properties, and offers insights into local rental market trends. Such insights could also be used to forecast future trends in the market. Here are some examples of websites offering information on rental market trends:
+This project is designed to gather and analyze data from various apartment listing websites. The collected data helps in making well-informed decisions regarding renting offers insights into local rental market trends. Such insights could also be used to forecast future trends in the market. Here are some examples of websites offering information on rental market trends:
 - [zillow](https://www.zillow.com/rental-manager/market-trends/chicago-il/?propertyTypes=apartment-condo)
 - [apartmentlist](https://www.apartmentlist.com/rent-report/il/chicago)
 - [rentcafe](https://www.rentcafe.com/average-rent-market-trends/us/il/chicago/)
