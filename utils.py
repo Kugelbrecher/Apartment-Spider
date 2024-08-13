@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from fake_useragent import UserAgent
+import os
 
 ua = UserAgent()
 
@@ -14,7 +15,10 @@ def setup_driver(headless=True):
         options.add_argument('--headless')
     options.add_argument(f'user-agent={ua.random}') # add user agent to pass bot detection, o.w. add click action
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    service=Service(ChromeDriverManager().install())
+
+    driver_path = ChromeDriverManager().install()
+    service = Service(driver_path)
+    
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
@@ -35,3 +39,7 @@ def insert_data(conn, data):
     conn.commit()
     cursor.close()
     print("Data inserted successfully into the database.")
+
+
+if __name__ == '__main__':
+    driver = setup_driver()
